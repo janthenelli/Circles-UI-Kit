@@ -1,0 +1,42 @@
+// ============================================= 
+//              TYPOGRAPHY                      
+// ============================================= 
+
+* {
+    font-family: 'Lato', sans-serif;
+    color: $main-font;
+    box-sizing: border-box;
+}
+  
+p {
+    line-height: 1.45em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headline-primary {
+    color: $main-color;
+    margin-left: $base-pad;
+}
+
+.headline-secondary {
+    font-weight: 300;
+    color: $main-font;
+}
+
+.link {
+    color: $aqua-blue-bg;
+    font-weight: 700;
+}
+
+.blockquote {
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: $quote-pad;
+    padding-left: $quote-pad;
+    border-left: 8px solid $main-color;
+    border-radius: 5px;
+}

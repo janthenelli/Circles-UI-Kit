@@ -1,0 +1,43 @@
+// ============================================= 
+//              BUTTONS                          
+// ============================================= 
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $white;
+    border: none;
+    padding: $base-pad 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+  
+.default {
+    background-color: $aqua-blue-bg;
+}
+  
+.error {
+    background-color: $fire-red-bg;
+}
+  
+.info {
+    background-color: $flat-purple-bg;
+}
+  
+.success {
+    background-color: $sea-green-bg;
+}
+  
+.warning {
+    background-color: $fire-orange-bg;
+}
+
+@media (min-width: $break) {
+    .btn {
+        padding: $base-pad 30px;
+    }
+      
+    .btn + .btn {
+        margin-left: $base-pad;
+    }
+}    

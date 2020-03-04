@@ -1,0 +1,24 @@
+// ============================================= 
+//              BASE                             
+// ============================================= 
+@media (min-width: $break) {
+
+    .container {
+        max-width: 1400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .centered {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo {
+        margin-left: initial;
+        margin-right: initial;
+    }
+    
+}
