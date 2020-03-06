@@ -6,3 +6,8 @@
         @content;
     }
 }
+
+@mixin lighten-trans($color, $pct) {
+    background-color: lighten($color, $pct);
+    transition: background-color 0.4s ease;
+}

@@ -14,22 +14,37 @@
   
 .default {
     background-color: $aqua-blue-bg;
+    &:hover {
+        @include lighten-trans($aqua-blue-bg, 15%)
+    }
 }
   
 .error {
     background-color: $fire-red-bg;
+    &:hover {
+        @include lighten-trans($fire-red-bg, 15%)
+    }
 }
   
 .info {
     background-color: $flat-purple-bg;
+    &:hover {
+        @include lighten-trans($flat-purple-bg, 15%)
+    }
 }
   
 .success {
     background-color: $sea-green-bg;
+    &:hover {
+        @include lighten-trans($sea-green-bg, 15%)
+    }
 }
   
 .warning {
     background-color: $fire-orange-bg;
+    &:hover {
+        @include lighten-trans($fire-orange-bg, 15%)
+    }
 }
 
 @include MQ {
