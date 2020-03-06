@@ -449,7 +449,7 @@ a {
   flex-direction: column;
 }
 
-/* line 12, ../coding projects/tech-degree-project-4/scss/component/_nav.scss */
+/* line 10, ../coding projects/tech-degree-project-4/scss/component/_nav.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -459,20 +459,20 @@ a {
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
-/* line 23, ../coding projects/tech-degree-project-4/scss/component/_nav.scss */
+/* line 20, ../coding projects/tech-degree-project-4/scss/component/_nav.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
 
 @media (min-width: 768px) {
-  /* line 29, ../coding projects/tech-degree-project-4/scss/component/_nav.scss */
+  /* line 27, ../coding projects/tech-degree-project-4/scss/component/_nav.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
-  /* line 35, ../coding projects/tech-degree-project-4/scss/component/_nav.scss */
+  /* line 31, ../coding projects/tech-degree-project-4/scss/component/_nav.scss */
   .nav-link {
     flex-basis: 100px;
   }
@@ -629,55 +629,55 @@ a {
     margin-top: 0;
     align-items: center;
   }
-  /* line 87, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
+  /* line 85, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 91, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
+  /* line 90, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
-  /* line 95, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
+  /* line 94, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
-  /* line 99, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
+  /* line 98, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
   .col-3 {
     flex-basis: 25.00%;
   }
-  /* line 103, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
+  /* line 102, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
-  /* line 107, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
+  /* line 106, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
-  /* line 111, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
+  /* line 110, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
   .col-6 {
     flex-basis: 50.00%;
   }
-  /* line 115, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
+  /* line 114, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
-  /* line 119, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
+  /* line 118, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 123, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
+  /* line 122, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
   .col-9 {
     flex-basis: 75.00%;
   }
-  /* line 127, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
+  /* line 126, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 131, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
+  /* line 130, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 135, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
+  /* line 134, ../coding projects/tech-degree-project-4/scss/component/_grid.scss */
   .col-12 {
     flex-basis: 100%;
   }
@@ -724,7 +724,7 @@ a {
   .btn {
     padding: 10px 30px;
   }
-  /* line 40, ../coding projects/tech-degree-project-4/scss/component/_button.scss */
+  /* line 38, ../coding projects/tech-degree-project-4/scss/component/_button.scss */
   .btn + .btn {
     margin-left: 10px;
   }

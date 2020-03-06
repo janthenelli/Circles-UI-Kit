@@ -72,7 +72,7 @@
     flex-basis: 100%;
 }
 
-@media (min-width: $break) {
+@include MQ {
     .row {
         flex-direction: row;
     }
@@ -82,11 +82,10 @@
         justify-content: center;
         margin-top: 0;
         align-items: center;
-    }
-      
-    [class^=col] + [class^=col] {
-        margin-left: $base-pad
-    }
+        + [class^=col] {
+            margin-left: $base-pad
+        }
+    }    
       
     .col-1 {
         flex-basis: 8.33%;

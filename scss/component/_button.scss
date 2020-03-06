@@ -32,12 +32,11 @@
     background-color: $fire-orange-bg;
 }
 
-@media (min-width: $break) {
+@include MQ {
     .btn {
         padding: $base-pad 30px;
-    }
-      
-    .btn + .btn {
-        margin-left: $base-pad;
-    }
+        + .btn {
+            margin-left: $base-pad;
+        }
+    }    
 }    

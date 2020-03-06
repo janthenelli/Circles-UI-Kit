@@ -7,33 +7,29 @@
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
-}
+    &-link {
+        text-align: center;
+        border-radius: 5px;
+        padding: 10px 0;
+        display: block;
+        width: 100%;
+        transition: 
+            background-color $nav-trans, 
+            color $nav-trans;
+    }
+    &-link:hover {
+        color: $white;
+        background-color: $main-color;
+    }
+}    
   
-.nav-link {
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px 0;
-    display: block;
-    width: 100%;
-    transition: 
-      background-color $nav-trans, 
-      color $nav-trans;
-}
-  
-.nav-link:hover {
-    color: $white;
-    background-color: $main-color;
-}
-  
-@media (min-width: $break) {
+@include MQ {
     .nav {
         flex-direction: row;
         justify-content: flex-end;
-        align-items: center;
+        align-items: center; 
+        &-link {
+            flex-basis: 100px;
+        }
     }
-      
-    .nav-link {
-        flex-basis: 100px;
-    }
-      
 }    
